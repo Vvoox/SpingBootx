@@ -1,10 +1,12 @@
 package com.example.testx.service;
 
 import com.example.testx.model.Client;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+@Component
 public class ClientService {
 
     private int clientcountid = 1;
